@@ -507,17 +507,6 @@ a:focus {
   margin-top: 45px;
 }
 
-.product_section .btn-box a {
-  display: inline-block;
-  padding: 10px 40px;
-  background-color: #0098bb;
-  border: 1px solid #0098bb;
-  color: #ffffff;
-  border-radius: 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 .product_section .btn-box a:hover {
   background-color: transparent;
   color: #0098bb;

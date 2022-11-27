@@ -1,0 +1,147 @@
+.body{
+    padding: 3%;
+}
+.carritoleft{
+    float: left;
+    margin-left: 40px;
+}
+.carritoright{
+    float: right;
+    margin-right: 40px;
+}
+.banner{
+    background-color: #008aa4;
+    color: white;
+    padding: 0;
+}
+.banner p{
+    font-weight: 700;
+    margin-left: 35px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+.banner span{
+    margin-left: 10px;
+}
+.totalcarrito{
+    background-color: white;
+    margin-top: 15px;
+    padding: 50px;
+}
+
+.totalcarrito p{
+    float: right;
+}
+.totalcarrito hr{
+    margin: auto;
+    width: 450px;
+    color: #008aa4;
+    height: 2px;
+}
+
+.elementos{
+    background-color: white;
+    margin-top: 15px;
+    transition: all 0.5s ease;
+}
+.elementos:hover{
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 1px 1px 10px 5px #6b7172;
+    transform: scale(1.01);
+}
+.juegocarrito img{
+ width: 200px;
+}
+.imgc{
+    float: left;
+    height: 250px;
+}
+.imgc img{
+    height: 200px;
+    width: auto;
+}
+.datos{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.pricedesc{
+    width: 70px;
+    text-align: left;
+    font-weight:700;
+    background-color: #ff8300;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    padding: 7px;
+    color: white;
+    font-size: 14px;
+}
+.lanzamiento{
+    text-align: right;
+}
+.doc{
+    margin-top: 30px;
+}
+.precios button{
+    border: 0px;
+    background-color: white;
+    color: gray;
+    float: right;
+}
+.precios button{
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.precios:hover button{
+    transform: scale(1.2);
+}
+.precios{
+    float: right;
+    position: relative;
+}
+.precios p{
+    color: #ff8300;
+    font-size: 25px;
+}
+.precios span{
+    position: relative;
+    color: lightgray;
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.nombre p{
+    font-weight: 1000;
+    margin-left: 30%;
+    font-size: 25px;
+}
+.descripcion{
+    font-weight: 500;
+    margin-left: 40%;
+    font-size: 15px;
+}
+.nombre span{
+    margin-left: 100%;
+}
+.boton a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    width: 250px;
+    background-color: #008aa4;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    border: solid 1px white;
+}
+.boton a:hover{
+	background-color: #0ebadb;
+}
+.basurero{
+    transform: translate(+13150%,+20%);
+}
